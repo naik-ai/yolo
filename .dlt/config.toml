@@ -1,0 +1,17 @@
+[runtime]
+log_level="INFO"
+log_format="JSON"
+dlthub_telemetry = true
+
+[data_writer]
+max_buffer_items=100
+
+[providers]
+enable_google_secretes=true
+
+[schemas]
+export_schema_path="schemas/export"
+import_schema_path="schemas/import"
+
+[sources.yfinance]
+

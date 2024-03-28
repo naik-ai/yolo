@@ -1,0 +1,31 @@
+# Python Based Proxyway application
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+reflex = "*"
+asyncio = "*"
+httpx = "*"
+numpy = "*"
+pandas = "*"
+pandas-gbq = "*"
+fastapi = "*"
+uvicorn = "*"
+nest-asyncio = "*"
+google-cloud-bigquery = "*"
+google-cloud-secret-manager = "*"
+google-cloud-storage = "*"
+python-dotenv = "*"
+jinja2 = "*"
+openai = "*"
+yfinance = "*"
+dlt = "*"
+
+[dev-packages]
+black="*"
+
+[requires]
+python_version = "3.12.2"
