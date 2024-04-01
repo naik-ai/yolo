@@ -23,6 +23,7 @@ jinja2 = "*"
 openai = "*"
 yfinance = "*"
 dlt = "*"
+alpha-vantage = "*"
 
 [dev-packages]
 black="*"

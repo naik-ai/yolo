@@ -1,5 +1,3 @@
-import json
-import pandas_gbq
 import dlt
 from dlt.common.libs.pydantic import pydantic_to_table_schema_columns
 from dlt.common.typing import TDataItems
@@ -161,21 +159,9 @@ def yahoo_finance_history() -> Iterator[TDataItems]:
 )
 def yahoo_finance_pipeline() -> Sequence[DltResource]:
     return [
-        # yahoo_finance_info,
-        # yahoo_finance_income_statement,
-        # yahoo_finance_balance_sheet,
-        # yahoo_finance_cash_flow,
+        yahoo_finance_info,
+        yahoo_finance_income_statement,
+        yahoo_finance_balance_sheet,
+        yahoo_finance_cash_flow,
         yahoo_finance_history,
     ]
-
-
-if __name__ == "__main__":
-
-    logging.info("Running DLT yolo_yfinance pipeline")
-    p = dlt.pipeline(
-        pipeline_name="yolo_yfinance",
-        destination="bigquery",
-        dataset_name="raw",
-    )
-    p.run(yahoo_finance_pipeline(), loader_file_format="jsonl")
-    logging.info("Finished DLT yolo_yfinance pipeline")
