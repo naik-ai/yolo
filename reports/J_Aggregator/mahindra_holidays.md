@@ -18,11 +18,6 @@ Performance of Holiday Club Resorts Oy, Finland (HCR):
    Despite challenges (Covid aftermath, Russia Ukraine conflict), HCR achieved:
      Operating Profit (2022-23): Euro 5 million (compared to an operating loss of Euro 0.3 million in 2021-22)
 
-Share Capital:
-•	During the year, the company allotted 6,58,464 Equity Shares of ₹10 each to eligible employees/directors through stock option exercises.
-•	As of March 31, 2023, the Issued, Subscribed, and Paid-up Share Capital stood at ₹2,01,25,66,400 divided into 20,12,56,640 Equity Shares of ₹10 each.
-•	No shares with differential voting rights were issued during the year.
-•	Details of Directors' shareholding as of March 31, 2023, are provided in the Corporate Governance Report within the Annual Report.
 
 Credit Rating:
 India Ratings and Research Private Limited has reaffirmed the Company's LongTerm Issuer Rating at 'IND A+'.The rating comes with a stable outlook, indicating an adequate degree of safety concerning the timely servicing of financial obligations.
