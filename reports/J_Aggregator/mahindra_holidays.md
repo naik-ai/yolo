@@ -66,7 +66,7 @@ Partnership :
 Challenges / Risks and their Management:
 Certainly! Here's a concise summary of the information grouped according to different types of challenges:
 
- Operational Challenges
+ Operational Challenges 
 - Customer Expectations: Risk of dissatisfaction when preferred holiday choices are unavailable.
 - Talent Management: Difficulty in attracting, retaining, and motivating skilled personnel, especially in remote areas.
 - Natural Calamities: Risks such as earthquakes, floods, and landslides affecting resort accessibility.
