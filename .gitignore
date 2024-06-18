@@ -16,9 +16,9 @@ __pycache__/
 build/
 data/
 creds/
-db/
 develop-eggs/
 dist/
 env.bak/
 env/
 target/
+cricket-api/

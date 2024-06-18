@@ -110,3 +110,11 @@ YAHOO_FINANCE_STATEMENT_TYPES = [
     "cashflow",
     "history",
 ]
+
+
+# Earnings Reports LINKS
+earnings_reports_links = {
+    "bookingholdings": "https://ir.bookingholdings.com/financials/quarterly-results/default.aspx",
+    "priceline": "https://www.priceline.com/earnings-reports",
+    "tripadvisor": "https://www.tripadvisor.com/earnings-reports",
+}
