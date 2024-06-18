@@ -1,7 +1,6 @@
 from enum import Enum, auto
 from typing import List
 
-
 team_names_to_short = {
     "Mumbai Indians": "MI",
     "Delhi Capitals": "DC",

@@ -19,7 +19,7 @@
         Bot-->>User: Greeting1
         Bot-->>User: Ask for user's name
         User->>Bot: User's name
-        Bot->>DB: Save user name
+        Bot->>DB: Save user **name**
         DB-->>Bot: Confirmation
         Bot-->>User: Responed Thank you
         Bot-->>User: Message1: Show all commands + info on it
@@ -58,8 +58,6 @@
             Bot-->>User: Message1: Show all commands realted to category + more_info
             User->>Command: selected: /more_info
             User->>Message: Custom Questions
-            
-
         ```
         - Notes:
             - Message1: 
@@ -72,14 +70,33 @@
     - OUTPUT: `List all Tickers avaiable`
     - providing overview
     - provide KPIs and cross compare between them
+    - Flow:
+        ```mermaid
+        sequenceDiagram
+            
+            participant Command
+            participant Bot
+            participant User
+            participant Message
+            participant DB
+            
+
+            User->>Command: selected: `/select_category`
+            Bot->>DB: Query for category list
+            DB-->>Bot: Provide list of categories
+            Bot-->>User: Show In-line Keyboard Options: single Input option
+            User->>Bot: Selected Category
+            Bot->>DB: Query for category
+            DB-->>Bot: Provide General info and related commands to dive deeper
+            Bot-->>User: Message1: Show all commands realted to category + more_info
+            User->>Command: selected: /more_info
+            User->>Message: Custom Questions
+        ```
 
 - `compare_ticker`:
     - Compare 2 tickers
     - provide KPIs and cross compare between them
-    - 
-- `conversation`: 
-    - 
-
+- `conversation`:
 - `more_info` -> dive deeep into a specific category/previsuly selected command: 
     - Provide more info on the selected category
     - List most important KPIs
@@ -141,21 +158,4 @@ timeline
 
 ```
 
-
-    ```mermaid
-    timeline
-            title England's History Timeline
-            section Stone Age
-            7600 BC : Britain's oldest known house was built in Orkney, Scotland
-            6000 BC : Sea levels rise and Britain becomes an island.<br> The people who live here are hunter-gatherers.
-            section Bronze Age
-            2300 BC : People arrive from Europe and settle in Britain. <br>They bring farming and metalworking.
-                    : New styles of pottery and ways of burying the dead appear.
-            2200 BC : The last major building works are completed at Stonehenge.<br> People now bury their dead in stone circles.
-                    : The first metal objects are made in Britain.Some other nice things happen. it is a good time to be alive.
-
-
-    ```
-
 ### Non-Command Functionality
-
