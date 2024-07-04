@@ -117,4 +117,5 @@ earnings_reports_links = {
     "bookingholdings": "https://ir.bookingholdings.com/financials/quarterly-results/default.aspx",
     "priceline": "https://www.priceline.com/earnings-reports",
     "tripadvisor": "https://www.tripadvisor.com/earnings-reports",
+    "makemytrip": "https://investors.makemytrip.com/",
 }

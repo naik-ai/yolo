@@ -33,11 +33,16 @@ langchain = "*"
 chromadb = "*"
 tiktoken = "*"
 scrapy = "*"
-pypdf2 = "*"
+pypdf2 = "<3.0"
 sqlmodel = "*"
 asyncpg = "*"
 databases = "*"
 psycopg2-binary = "*"
+tabula-py = "*"
+opencv-python = "*"
+ghostscript = "*"
+camelot-py = {extras = ["base"], version = "*"}
+pymupdf = "*"
 
 [dev-packages]
 black="*"
